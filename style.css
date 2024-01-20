@@ -92,6 +92,11 @@ button {
     margin-top: 30px;
 }
 
+button:hover {
+    background-color: #1b3b63;
+    cursor: pointer;
+}
+
 .secondcontainer {
     display: flex;
     justify-content: center;
@@ -307,7 +312,7 @@ p {
     width: 1000px;
 }
 
-.column{
+.column {
     width: 20%;
     line-height: 1.7;
     font-weight: 300;
@@ -316,7 +321,7 @@ p {
     padding-top: 50px;
 }
 
-.informationfooter{
+.informationfooter {
     display: block;
     font-size: 8px;
     width: 800px;
@@ -324,7 +329,7 @@ p {
     padding-left: 50px;
 }
 
-.footerbottom{
+.footerbottom {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -333,7 +338,75 @@ p {
     margin-bottom: 50px;
 }
 
-.finalfooter{
+.finalfooter {
     display: flex;
     justify-content: center;
+}
+
+a:link {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:active {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.maincontainer {
+    width: 100%;
+    height: 100%;
+}
+
+.signuppage {
+    display: flex;
+    width: 1000px;
+    margin-top: 50px;
+}
+
+
+.signupinfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputbox {
+    display: flex;
+    width: 344px;
+}
+
+.smallboxes {
+    height: 50px;
+    width: 50px;
+    border: 1px solid #d1d1d1;
+    color: #9b9b9b;
+    font-size: 1em;
+    background-color: #fff;
+    border-radius: 2px;
+
+}
+
+.bigboxes {
+    height: 50px;
+    width: 300px;
+    /* border: 1px solid #ccc; */
+    font-size: 1.1em;
+    color: #9b9b9b;
+    background-color: #fff;
+    border: 1px solid #d1d1d1;
+    border-radius: 2px;
 }
