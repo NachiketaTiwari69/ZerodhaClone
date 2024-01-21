@@ -344,19 +344,19 @@ p {
 }
 
 a:link {
-    color: rgb(255, 255, 255);
+    color: rgb(174, 48, 48);
     background-color: transparent;
     text-decoration: none;
 }
 
 a:visited {
-    color: rgb(255, 255, 255);
+    color: rgb(136, 158, 157);
     background-color: transparent;
     text-decoration: none;
 }
 
 a:hover {
-    color: rgb(255, 255, 255);
+    color: rgb(151, 110, 161);
     background-color: transparent;
     text-decoration: none;
 }
@@ -409,4 +409,36 @@ a:active {
     background-color: #fff;
     border: 1px solid #d1d1d1;
     border-radius: 2px;
+}
+
+.kitecontainer,.consolecontainer,.coincontainer,.kiteconnectcontainer,.varsitycontainer{
+    display: flex;
+    margin-top: 120px;
+}
+
+.kitecontainerright,.coincontainerright,.varsitycontainerright{
+    margin-left:100px;
+    margin-top: 50px;
+}
+
+.trydemo{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.consolecontainerleft,.kiteconnectcontainerleft{
+    margin-top: 170px;
+    margin-right: 100px;
+}
+
+.zerodhauniverse{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+hr{
+    border-color: #f1f1f1;
+    opacity: 20%;
 }
