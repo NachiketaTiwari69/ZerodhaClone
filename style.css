@@ -442,3 +442,17 @@ hr{
     border-color: #f1f1f1;
     opacity: 20%;
 }
+
+.mainrowzero{
+    display: flex;
+    margin-top: 100px;
+}
+
+.firstcolumn{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 30px;
+}
