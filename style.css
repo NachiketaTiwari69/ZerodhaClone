@@ -344,22 +344,17 @@ p {
 }
 
 a:link {
-    color: rgb(174, 48, 48);
+    color: rgb(48, 109, 174);
     background-color: transparent;
     text-decoration: none;
 }
 
 a:visited {
-    color: rgb(136, 158, 157);
+    color: rgb(49, 143, 176);
     background-color: transparent;
     text-decoration: none;
 }
-
-a:hover {
-    color: rgb(151, 110, 161);
-    background-color: transparent;
-    text-decoration: none;
-}
+ 
 
 a:active {
     color: rgb(255, 255, 255);
@@ -455,4 +450,9 @@ hr{
     align-items: center;
     margin-left: 30px;
     margin-right: 30px;
+}
+
+.containerfirst{
+    display: flex;
+    padding-top: 80px;
 }
